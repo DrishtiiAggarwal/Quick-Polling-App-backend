@@ -8,7 +8,6 @@ export interface Poll {
   poll_id: string;
   title: string;
   question:string;
-  created_at: Date;
 }
 
 export interface Option {
