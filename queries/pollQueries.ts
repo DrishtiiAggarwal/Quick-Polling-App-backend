@@ -1,0 +1,1 @@
+export const addUserQuery = `Insert into users (name, password) values ($1, $2)`;

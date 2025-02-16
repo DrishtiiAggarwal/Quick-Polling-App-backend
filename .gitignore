@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Database files and dumps
+db/*.sqlite
+db/*.sqlite3
+db/dumps/
+*.sql
+
+# Compiled output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime*
+
+# Coverage reports
+coverage/
+
+# Temporary files
+.tmp/
+.cache/
+
+# Docker-related
+.dockerignore
+docker-compose.override.yml
+
+# Misc
+*.bak
+*.orig
